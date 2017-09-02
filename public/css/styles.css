@@ -1,0 +1,57 @@
+* {
+    font-family: 'Inconsolata', monospace;
+}
+
+body {
+    background: url("../img/seamless_paper_texture.png");
+}
+
+.np {
+    padding: 0;
+}
+
+.header-bg {
+    width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/morning.png");
+    background-size: cover;
+}
+
+.pnl {
+    margin: 2%;
+}
+
+.MB {
+    width: 50%;
+}
+
+.DB {
+    width: 50%;
+}
+
+.head {
+    padding-top: 1%;
+    text-align: center;
+    color: #BEDEFF;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    background: transparent;
+}
+
+.navt {
+    color: #BEDEFF;
+}
+
+.btn {
+    text-shadow: black 0em 0em 0em;
+}
+
+.btn-success {
+    width: 100%;
+}
+
+.panel-heading {
+    margin: 0;
+}
+
+.row {
+    margin-top: 2%;
+}
