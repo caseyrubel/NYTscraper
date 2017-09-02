@@ -30,7 +30,7 @@ app.use(express.static("public"));
 
 // mongodb://heroku_544fdlgx:1d37s1m7qsdbo54sjgi7r7vnlr@ds161493.mlab.com:61493/heroku_544fdlgx
 // Database configuration with mongoose
-mongoose.connect("mongodb://localhost/week18day3mongoose", {
+mongoose.connect("mongodb://heroku_544fdlgx:1d37s1m7qsdbo54sjgi7r7vnlr@ds161493.mlab.com:61493/heroku_544fdlgx", {
   useMongoClient: true
 });
 var db = mongoose.connection;
@@ -181,6 +181,7 @@ app.post("/articles/:id", function(req, res) {
 
 var port = process.env.PORT || 3000;
 // Listen on port 3000
+
 app.listen(port, function() {
   console.log("App running on port 3000!");
 });
