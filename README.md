@@ -9,13 +9,14 @@ Link to the deployed Heroku application: https://safe-refuge-32666.herokuapp.com
 This repository is a full MERN stack application that enables the user to: 
 
 * Enter in a subreddit to scrape (as seen in the picture above)
-* Choose from the scraped results links to save
+* Choose links from the scraped results to save
 * See a list of the saved links and add notes to each
 * Delete links from the saved section
 
 All of the data in this app persists through the MongoLab database heroku add-on. 
 
 ![app](./public/img/SS1.png)
+![app](./public/img/SS4.png)
 
 #### Contributors:
 ***
