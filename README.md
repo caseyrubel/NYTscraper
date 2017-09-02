@@ -1,4 +1,4 @@
-![app](./public/assets/img/SS3.png)
+![app](./public/img/SS3.png)
 
 # Sub-Scraper
 
@@ -15,7 +15,7 @@ This repository is a full MERN stack application that enables the user to:
 
 All of the data in this app persists through the MongoLab database heroku add-on. 
 
-![app](./public/assets/img/SS1.png)
+![app](./public/img/SS1.png)
 
 #### Contributors:
 ***
