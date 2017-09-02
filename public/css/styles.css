@@ -6,10 +6,6 @@ body {
     background: url("../img/seamless_paper_texture.png");
 }
 
-.np {
-    padding: 0;
-}
-
 .header-bg {
     width: 100%;
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/morning.png");
