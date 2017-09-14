@@ -12,17 +12,17 @@ $(document).on("click", "#scraper", function() {
         $("#articles").html('');
         // For each one
         for (var i = 0; i < data.length; i++) {
-        // Display the apropos information on the page
-        var card = $('<div>', { class: 'panel panel-success pnl'});
-        var btn = $('<button>',  { class: 'btn btn-success savebtn', id: "savebtn", link: data[i].link, title: data[i].title});
-        btn.append('Save');
-        var title = $('<div>',  { class: 'panel-heading'});
-        title.append('<h3><a href="' + data[i].link + '">' + data[i].title + '</a></h3>');
-        var body = $('<div>',  { class: 'panel-body'});
-        body.append(btn);
-        card.append(title)
-        card.append(body)
-        $("#articles").append(card);
+            // Display the apropos information on the page
+            var card = $('<div>', { class: 'panel panel-success pnl'});
+            var btn = $('<button>',  { class: 'btn btn-success savebtn', id: "savebtn", link: data[i].link, title: data[i].title});
+            btn.append('Save');
+            var title = $('<div>',  { class: 'panel-heading'});
+            title.append('<h3><a href="' + data[i].link + '">' + data[i].title + '</a></h3>');
+            var body = $('<div>',  { class: 'panel-body'});
+            body.append(btn);
+            card.append(title)
+            card.append(body)
+            $("#articles").append(card);
         }
     });
 });

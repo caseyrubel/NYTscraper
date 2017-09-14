@@ -6,7 +6,7 @@ Link to the deployed Heroku application: https://safe-refuge-32666.herokuapp.com
 
 ## Description
 ***
-This repository is a full MERN stack application that enables the user to: 
+This repository is an application that enables the user to: 
 
 * Enter in a subreddit to scrape (as seen in the picture above)
 * Choose links from the scraped results to save
